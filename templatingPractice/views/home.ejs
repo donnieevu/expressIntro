@@ -1,18 +1,11 @@
-<html lang="en">
+<%- include('partials/head') %>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
 
-<body>
-    <h1>THE HOME PAGE <%= 'hello world'.toUpperCase() %> </h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum porro unde nobis! Omnis reprehenderit unde
-        asperiores dolorum, laboriosam, sequi neque, ipsam mollitia eum modi molestiae culpa aliquam ad vitae atque?</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, minus numquam, molestiae voluptatem in modi
-        tempora quia error rerum perspiciatis enim consequuntur a similique explicabo hic. Ratione vel quas
-        exercitationem.</p>
-</body>
-
-</html>
+<%- include('partials/navbar') %>
+<h1>THE HOME PAGE <%= 'hello world'.toUpperCase() %> </h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum porro unde nobis! Omnis reprehenderit unde
+    asperiores dolorum, laboriosam, sequi neque, ipsam mollitia eum modi molestiae culpa aliquam ad vitae atque?</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, minus numquam, molestiae voluptatem in modi
+    tempora quia error rerum perspiciatis enim consequuntur a similique explicabo hic. Ratione vel quas
+    exercitationem.</p>
+<%- include('partials/footer') %>
